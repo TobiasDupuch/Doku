@@ -1,0 +1,100 @@
+@font-face {
+  font-family: avenir-next;
+  src: url(avenirnext/avenir-next-regular.woff);
+  font-weight: regular;
+}
+
+@font-face {
+  font-family: avenir-next;
+  src: url(avenirnext/avenir-next-bold.woff);
+  font-weight: bold;
+}
+
+
+
+body{
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+  font-family: avenir-next;
+}
+
+
+.content{
+  height: 100vh;
+  margin-left: 22.5%;
+  padding: 6%;
+}
+
+.content p:last-of-type{
+  padding-bottom: 200px;
+}
+
+h1{
+  color: black;
+  transition: padding 0.2s;
+}
+
+h2{
+  color: black;
+  transition: padding 0.2s;
+}
+
+h3{
+  color: black;
+  transition: padding 0.2s;
+}
+
+p{
+  font-size: 18px;
+  transition: padding 0.2s;
+  color: #575757;
+  line-height: 1.5
+}
+
+a{
+  margin-bottom: 1000px;
+  transition: padding 0.2s;
+}
+
+
+.toc{
+  background: white;
+  box-shadow: 0px 10px 20px lightgrey;
+  width: 20%;
+  height: 100vh;
+  padding: 2%;
+  position: fixed;
+  max-width: 200px;
+}
+
+.toc .observed{
+  padding-left: 10px;
+}
+
+.toc h1{
+  color: black;
+  font-size: 15px;
+}
+
+.toc h2{
+  color: black;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.toc h3{
+  color: black;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.toc h1:hover{
+  padding-left: 10px;
+}
+
+
+.toc a{
+  text-decoration: none;
+}
